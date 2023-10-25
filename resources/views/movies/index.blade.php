@@ -11,7 +11,7 @@
                 <div class="col-3 mb-4">
                     <div class="movie">
                         <a href="{{ route('movies.show', ['id' => $movie['id']]) }}">
-                            <img src="https://image.tmdb.org/t/p/w500/{{ $movie['poster_path'] }}" alt="{{ $movie['title'] }}" class="img-fluid">
+                            <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/{{ $movie['poster_path'] }}" alt="{{ $movie['title'] }}" class="img-fluid">
                         </a>
                     </div>
                 </div>
